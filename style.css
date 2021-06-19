@@ -1,6 +1,52 @@
-
-/* Fonts */
+/* Fonts
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace; */
+
+/* KAT Space Dust Colors
+pink: #E93CAC
+purple: #BB29BB
+dark-purple: #753BBD
+light-blue: #62B5E5
+blue: #307FE2
+dark-blue: #201547
+black: #101820
+*/
+
+/* ePBT Dreamscape Colors
+white-red: #F2ABBB
+white-orange: #F7C0B9
+white-purple: #BFADD9
+light blue: #A6C6EF
+grey-blue: #9FB5CC
+gray-white: #DEE5ED
+gray-brown: #B0AAAA
+*/
+
+html {
+    box-sizing: border-box
+}
+
+
+h1, h2, h3, h4, h5, h6, body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* Parallax Photos */
+.parallax-intro {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
