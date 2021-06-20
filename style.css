@@ -30,8 +30,104 @@ html {
 
 
 h1, h2, h3, h4, h5, h6, body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto-mono-regular {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+
+.kat-white {
+    background-color: white !important;
+}
+
+.kat-pink {
+    background-color: #E93CAC !important;
+}
+
+.kat-purple {
+    background-color: #BB29BB !important;
+}
+
+.kat-dark-purple {
+    background-color: #753BBD !important;
+}
+
+.kat-light-blue {
+    background-color: #62B5E5 !important;
+}
+
+.kat-blue {
+    background-color: #307FE2 !important;
+}
+
+.kat-dark-blue {
+    background-color: #201547 !important;
+}
+
+.kat-black {
+    background-color: #101820 !important;
+}
+
+.kat-dark-gray {
+    background-color: #000  !important;
+}
+
+.kat-white-text {
+    color: white !important;
+}
+
+.kat-pink-text {
+    color: #E93CAC !important;
+}
+
+.kat-purple-text {
+    color: #BB29BB !important;
+}
+
+.kat-dark-purple-text {
+    color: #753BBD !important;
+}
+
+.kat-light-blue-text {
+    color: #62B5E5 !important;
+}
+
+.kat-blue-text {
+    color: #307FE2 !important;
+}
+
+.kat-dark-blue-text {
+    color: #201547 !important;
+}
+
+.kat-black-text {
+    color: #101820 !important;
+}
+
+.kat-dark-gray-text {
+    color: #000  !important;
+}
+
+a:link {
+    color: inherit;
+    font: inherit;
+  }
+
+a:hover {
+    color: inherit;
+  }
+
+.navbar-hover:hover {
+    background-color: lightslategray !important;
+    color: white !important;
 }
 
 
@@ -39,7 +135,7 @@ h1, h2, h3, h4, h5, h6, body {
 /* Parallax Photos */
 .parallax-intro {
     /* The image used */
-    background-image: url("img_parallax.jpg");
+    background-image: url("night-sky-line-stars1.jpg");
   
     /* Set a specific height */
     min-height: 500px;
@@ -49,4 +145,25 @@ h1, h2, h3, h4, h5, h6, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+
+
+  .underscore-blink:after {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: black;
+    opacity: 0;
+    display: inline-block;
+    animation: blink 0.5s linear infinite alternate;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
