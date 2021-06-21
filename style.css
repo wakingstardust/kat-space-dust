@@ -42,6 +42,11 @@ ul, ol {
     font-family: 'Montserrat', sans-serif;
 }
 
+.roboto-mono-thin {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+}
+
 .roboto-mono-regular {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
@@ -137,8 +142,6 @@ ul, ol {
      }
 }
 
-
-
 .kat-navbar-brand {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -166,7 +169,6 @@ ul, ol {
     color: white !important;
     text-align: center !important;
     display:inline-block !important;
-    float: none !important;
 }
 .kat-navbar-hover {
     color: white !important;
