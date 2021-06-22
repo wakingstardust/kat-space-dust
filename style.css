@@ -24,8 +24,9 @@ gray-white: #DEE5ED
 gray-brown: #B0AAAA
 */
 
-
-
+body, html {
+    height: 100%;
+}
 
 h1, h2, h3, h4, h5, h6, body {
     font-family: 'Roboto Mono', monospace;
@@ -178,10 +179,15 @@ ul, ol {
     color: #000 !important;
 }
 
-.navbar-gradient {
+.kat-gradient {
     background: rgb(233,60,172);
     background: linear-gradient(45deg, rgba(233,60,172,1) 0%, rgba(117,59,189,1) 44%, rgba(48,127,226,1) 67%, rgba(32,21,71,1) 100%);
 }
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
 
 @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu{ 
@@ -198,10 +204,10 @@ ul, ol {
 /* Parallax Photos */
 .parallax-intro {
     /* The image used */
-    background-image: url("night-sky-line-stars1.jpg");
+    background-image: url("assets/parallax/night-sky-line-stars1.jpg");
   
     /* Set a specific height */
-    min-height: 500px;
+    height: 100%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
