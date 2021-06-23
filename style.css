@@ -1,8 +1,8 @@
 /* Fonts
-font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace; */
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace; 
+font-family: 'Open Sans', sans-serif; */
 
 /* KAT Space Dust Colors
 pink: #E93CAC
@@ -24,223 +24,239 @@ gray-white: #DEE5ED
 gray-brown: #B0AAAA
 */
 
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, body {
-    font-family: 'Roboto Mono', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  font-family: "Roboto Mono", monospace;
 }
 
-ul, ol {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
+ul,
+ol {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 .montserrat {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .roboto-mono-thin {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 200 !important;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200 !important;
 }
 
 .roboto-mono-regular {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400 !important;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400 !important;
 }
 .roboto-mono-bold {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 700 !important;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700 !important;
 }
 
-
 .kat-white {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .kat-pink {
-    background-color: #E93CAC !important;
+  background-color: #e93cac !important;
 }
 
 .kat-purple {
-    background-color: #BB29BB !important;
+  background-color: #bb29bb !important;
 }
 
 .kat-dark-purple {
-    background-color: #753BBD !important;
+  background-color: #753bbd !important;
 }
 
 .kat-light-blue {
-    background-color: #62B5E5 !important;
+  background-color: #62b5e5 !important;
 }
 
 .kat-blue {
-    background-color: #307FE2 !important;
+  background-color: #307fe2 !important;
 }
 
 .kat-dark-blue {
-    background-color: #201547 !important;
+  background-color: #201547 !important;
 }
 
 .kat-black {
-    background-color: #101820 !important;
+  background-color: #101820 !important;
 }
 
 .kat-dark-gray {
-    background-color: #000  !important;
+  background-color: #000 !important;
 }
 
 .kat-white-text {
-    color: white !important;
+  color: white !important;
 }
 
 .kat-pink-text {
-    color: #E93CAC !important;
+  color: #e93cac !important;
 }
 
 .kat-purple-text {
-    color: #BB29BB !important;
+  color: #bb29bb !important;
 }
 
 .kat-dark-purple-text {
-    color: #753BBD !important;
+  color: #753bbd !important;
 }
 
 .kat-light-blue-text {
-    color: #62B5E5 !important;
+  color: #62b5e5 !important;
 }
 
 .kat-blue-text {
-    color: #307FE2 !important;
+  color: #307fe2 !important;
 }
 
 .kat-dark-blue-text {
-    color: #201547 !important;
+  color: #201547 !important;
 }
 
 .kat-black-text {
-    color: #101820 !important;
+  color: #101820 !important;
 }
 
 .kat-dark-gray-text {
-    color: #000  !important;
+  color: #000 !important;
 }
 
-
-@media(max-width: 990px) {
-    .kat-navbar-toggler {
-         display: inline-block;
-     }
+@media (max-width: 990px) {
+  .kat-navbar-toggler {
+    display: inline-block;
+  }
 }
 
-@media(min-width: 991px) {
-    .kat-navbar-toggler {
-         display: none;
-     }
+@media (min-width: 991px) {
+  .kat-navbar-toggler {
+    display: none;
+  }
 }
 
 .kat-navbar-brand {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    font-size: 20px;
-    text-decoration: none;
-    white-space: nowrap;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 20px;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .kat-navbar-toggler {
-    padding: 4px;
-    margin: 2px !important;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    transition: box-shadow .15s ease-in-out;
+  padding: 4px;
+  margin: 2px !important;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
 }
 
 .kat-navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
+  text-decoration: none;
+  outline: 0;
 }
 
 .kat-navbar {
-    color: white !important;
-    text-align: center !important;
-    display:inline-block !important;
+  color: white !important;
+  text-align: center !important;
+  display: inline-block !important;
 }
 .kat-navbar-hover {
-    color: white !important;
+  color: white !important;
 }
 
 .kat-navbar-hover:hover {
-    background-color: white !important;
-    color: #000 !important;
-    transition: 0.2s;
+  background-color: white !important;
+  color: #000 !important;
+  transition: 0.2s;
 }
 
 .kat-gradient {
-    background: rgb(233,60,172);
-    background: linear-gradient(45deg, rgba(233,60,172,1) 0%, rgba(117,59,189,1) 44%, rgba(48,127,226,1) 67%, rgba(32,21,71,1) 100%);
+  background: rgb(233, 60, 172);
+  background: linear-gradient(
+    45deg,
+    rgba(233, 60, 172, 1) 0%,
+    rgba(117, 59, 189, 1) 44%,
+    rgba(48, 127, 226, 1) 67%,
+    rgba(32, 21, 71, 1) 100%
+  );
 }
 
 .navbar-transparent {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
-
 @media all and (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu{ 
-        display: none; 
-    }
-	.navbar .nav-item:hover .dropdown-menu{ 
-        display: block; 
-    }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-
-
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
 
 /* Parallax Photos */
 .parallax-intro {
-    /* The image used */
-    background-image: url("assets/parallax/night-sky-line-stars1.jpg");
-  
-    /* Set a specific height */
-    height: 100%;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("assets/parallax/night-sky-line-stars1.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-
-
-
-
-
-
-
+.crew-member-photo {
+  float: left;
+  width: 99%;
+  padding: 5px;
+}
 
 .underscore-blink:after {
-    content: '';
-    width: 9px;
-    height: 3px;
-    background: WHITE;
+  content: "";
+  width: 9px;
+  height: 3px;
+  background: WHITE;
+  opacity: 0;
+  display: inline-block;
+  animation: blink 0.4s linear infinite alternate;
+}
+
+@keyframes blink {
+  50% {
     opacity: 0;
-    display: inline-block;
-    animation: blink 0.4s linear infinite alternate;
   }
-  
- @keyframes blink {
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
+}
