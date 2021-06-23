@@ -30,8 +30,8 @@ body, html {
 
 h1, h2, h3, h4, h5, h6, body {
     font-family: 'Roboto Mono', monospace;
-
 }
+
 ul, ol {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
@@ -43,16 +43,16 @@ ul, ol {
 
 .roboto-mono-thin {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 200;
+    font-weight: 200 !important;
 }
 
 .roboto-mono-regular {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 .roboto-mono-bold {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 700!important;
+    font-weight: 700 !important;
 }
 
 
@@ -171,12 +171,12 @@ ul, ol {
 }
 .kat-navbar-hover {
     color: white !important;
-    transition: 1s;
 }
 
 .kat-navbar-hover:hover {
     background-color: white !important;
     color: #000 !important;
+    transition: 0.2s;
 }
 
 .kat-gradient {
@@ -214,7 +214,16 @@ ul, ol {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+
+
+
+
+
+
+
+
 
 
 .underscore-blink:after {
