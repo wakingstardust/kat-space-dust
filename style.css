@@ -242,6 +242,23 @@ ol {
   padding: 5px;
 }
 
+.crew-member-vertical-center {
+  margin: auto;
+  width: 50%;
+}
+
+.crew-member-title {
+  font-size: 16pt;
+}
+
+.crew-member-name {
+  font-size: 36pt;
+}
+
+.crew-member-subtitle {
+  font-size: 14pt;
+}
+
 .underscore-blink:after {
   content: "";
   width: 9px;
