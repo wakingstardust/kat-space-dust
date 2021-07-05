@@ -259,6 +259,39 @@ ol {
   font-size: 14pt;
 }
 
+.no-link-formatting {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-hover-light-blue {
+  background-color: none;
+  color: inherit;
+}
+
+.link-hover-light-blue:hover {
+  color: white;
+  background-color: #62b5e5;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.vendor-box {
+  box-sizing: border-box;
+  height: 170px;
+  transition: 0.3s ease-out;
+}
+
+.vendor-box:hover {
+  color: white;
+  background-color: #62b5e5;
+  transition: 0.2s ease-out;
+}
+
+.vendor-box-icon {
+  font-size: 64px;
+}
+
 .underscore-blink:after {
   content: "";
   width: 9px;
