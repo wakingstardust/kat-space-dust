@@ -156,6 +156,13 @@ ol {
   }
 }
 
+.kat-navbar {
+  background-color: #000 !important;
+  position: fixed !important; /* Set the navbar to fixed position */
+  top: 0 !important; /* Position the navbar at the top of the page */
+  width: 100% !important; /* Full width */
+}
+
 .kat-navbar-brand {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -290,6 +297,24 @@ ol {
 
 .vendor-box-icon {
   font-size: 64px;
+}
+
+.render-photo {
+  float: center;
+  width: 99%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.img-zoom-out {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.img-zoom-out:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .underscore-blink:after {

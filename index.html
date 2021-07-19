@@ -61,8 +61,8 @@
   <!-- Home Page -->
   <div class="container-fluid parallax-intro">
   <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-transparent kat-white-text p-0">
-      <div class="container-fluid d-flex justify-content-center">
+  <div class="container-fluid d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg kat-navbar kat-white-text p-0">
         <button class="kat-navbar-toggler kat-white-text fs-3" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -74,6 +74,12 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav">
 
+            <li class="nav-item">
+              <a class="nav-link kat-navbar-hover roboto-mono-bold" href="#home">
+                <p class="text-center m-1 px-3">【HIGH COMMAND】// HOME PAGE</p>
+              </a>
+            </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link kat-navbar-hover roboto-mono-regular" href="#preliminary-briefing"
                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,7 +89,6 @@
                 <li><a class="dropdown-item" href="#introduction">【MISSION BRIEFING】// INTRODUCTION</a></li>
                 <li><a class="dropdown-item" href="#crew-member-profiles">【PERSONNEL LIST】// CREW MEMBER PROFILES</a></li>
                 <li><a class="dropdown-item" href="#vendors">【LAUNCH SITES】// VENDORS</a></li>
-                <li><a class="dropdown-item" href="#pricing">【BUDGET ALLOCATION】// PRICING</a></li>
               </ul>
             </li>
 
@@ -94,7 +99,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#renders">【COMPUTATIONAL SIMULATIONS】// RENDERS</a></li>
-                <li><a class="dropdown-item" href="#kits">【MODULE SCHEMATICS】// KITS</a></li>
+                <li><a class="dropdown-item" href="#kits">【MODULE SCHEMATICS】// KITS + PRICING</a></li>
                 <li><a class="dropdown-item" href="#collabs">【AGENCY JOINT O3BJECTIVES】// COLLABORATIONS + EXTRAS </a>
                 </li>
               </ul>
@@ -116,16 +121,16 @@
               <a class="nav-link kat-navbar-hover roboto-mono-bold" href="#mission-log">
                 <p class="text-center m-1 px-3">【MISSION LOG】// UPDATES</p>
               </a>
-              </a>
             </li>
 
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+
 
     <!-- Home Page Text -->
-    <div class="container-fluid ">
+    <div class="container-fluid" id="home">
 
 
 
@@ -410,26 +415,6 @@
       </div>
     </div>
 
-
-
-    <div class="container px-1 py-5" id="pricing">
-      <h3 class="roboto-mono-bold text-center pt-5 pr-1 pl-1 pb-4">
-        【BUDGET ALLOCATION】// PRICING
-      </h3>
-
-      <div class="container px-1 py-3">
-
-
-
-        
-      </div>
-
-
-
-
-
-    </div>
-
   </div>
 
 
@@ -450,11 +435,112 @@
         【COMPUTATIONAL SIMULATIONS】// RENDERS
       </h3>
 
+      <p class="roboto-mono-regular"><i>
+        DISCLAIMER: Renders are an estimation, and may not be accurate to the final product. This is due to confounding factors such as user-variable monitor calibrations affecting wavelength emissions
+      </i></p>
+
+      <div class="container px-1 py-3">
+        <div class="row p-2">
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\fix8-by-geonworks.png" class="render-photo img-zoom-out " alt="F18x by Geonworks">
+              <p class="roboto-mono-regular p-1">
+                F18x by Geonworks
+              </p>
+          </div>
+
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\rama-koyu-by-rama-works.png" class="render-photo img-zoom-out" alt="RAMA Koyu by Rama Works">
+              <p class="roboto-mono-regular p-1">
+                RAMA Koyu by Rama Works
+              </p>
+          </div>
+      </div>
+      
+      <div class="container px-1 py-3">
+        <div class="row p-2">
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\alice-clone.png" class="render-photo img-zoom-out " alt="Alice Clone Full Shot">
+              <p class="roboto-mono-regular p-1">
+                Alice Clone
+              </p>
+          </div>
+
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\alice-clone-closeup1.png" class="render-photo img-zoom-out" alt="Alice Clone Close Up 1">
+              <p class="roboto-mono-regular p-1">
+                Alice Clone
+              </p>
+          </div>
+      </div>
+
+      <div class="container px-1 py-3">
+        <div class="row p-2">
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\alice-clone-closeup2.png" class="render-photo img-zoom-out " alt="Alice Clone Close Up 2">
+              <p class="roboto-mono-regular p-1">
+                Alice Clone
+              </p>
+          </div>
+
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\haus-by-lewisflude.png" class="render-photo img-zoom-out" alt="Haus by LewisFlude">
+              <p class="roboto-mono-regular p-1">
+                Haus by LewisFlude
+              </p>
+          </div>
+      </div>
+
+      <div class="container px-1 py-3">
+        <div class="row p-2">
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\akis-by-jeffccy1.jpg" class="render-photo img-zoom-out " alt="Aki-S 65% by Jeffccy">
+              <p class="roboto-mono-regular p-1">
+                Aki-S 65% by Jeffccy
+              </p>
+          </div>
+
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\akis-by-jeffccy2.jpg" class="render-photo img-zoom-out" alt="Aki-S 65% by Jeffccy">
+              <p class="roboto-mono-regular p-1">
+                Aki-S 65% by Jeffccy
+              </p>
+          </div>
+      </div>
+
+      <div class="container px-1 py-3">
+        <div class="row p-2">
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\paragon1.jpg" class="render-photo img-zoom-out " alt="Paragon">
+              <p class="roboto-mono-regular p-1">
+                Paragon
+              </p>
+          </div>
+  
+          <div class="col-sm justify-content-center">
+            <img src="assets\renders\paragon2.jpg" class="render-photo img-zoom-out" alt="Paragon">
+              <p class="roboto-mono-regular p-1">
+                Paragon
+               </p>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
     
     <div class="container px-1 py-5" id="kits">
       <h3 class="roboto-mono-bold text-center pt-5 pr-1 pl-1 pb-4">
-        【PAYLOAD MANIFEST】// KITS
+        【PAYLOAD MANIFEST】// KITS + PRICING
       </h3>
 
     </div>
